@@ -1,0 +1,382 @@
+{
+  "groups": [
+    {
+      "groupName": "B站",
+      "globalUrl": "https://api.live.bilibili.com/room/v1/Room/startLive",
+      "globalParamUrl": "",
+      "globalHeaders": {},
+      "globalParams": {},
+      "method": "post",
+      "once": true,
+      "interval": 1000,
+      "start": "now",
+      "requests": [
+        {
+          "requestName": "0",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "buvid3=BD8232FB-CD82-557D-A7B0-AFA9FEDF7C3A81305infoc; _uuid=10E8C9D9A-84A4-5E103-63A3-3D7E5C8C24D693313infoc; rpdid=|(u|JlRmRR|)0J'uYJmYlul||; LIVE_BUVID=AUTO6716413535969602; buvid_fp_plain=CF1D2AA8-2D65-A5A2-1D42-B80ED98CCA1A01715infoc; DedeUserID=35912382; DedeUserID__ckMd5=6776c77a20e41712; i-wanna-go-back=-1; b_ut=5; CURRENT_BLACKGAP=0; blackside_state=0; CURRENT_QUALITY=80; buvid4=1467A5B0-B8FE-F335-1DB2-A0EC2DDE323B34535-022012015-gc17FZF31pKm6sUGt2gjaw%3D%3D; buvid_fp=29b875a9efe0202221e79dcd55762dac; Hm_lvt_8a6e55dbd2870f0f5bc9194cddf32a02=1643976117,1643977459,1644130232,1645023925; nostalgia_conf=-1; hit-dyn-v2=1; bp_article_offset_35912382=671087798229401600; fingerprint3=b4c4d26e333d6f70b73ae486a52146ea; fingerprint=c94987e164f32c27747d684841e3a5d5; bp_video_offset_35912382=697159091519225900; CURRENT_FNVAL=4048; _dfcaptcha=ca3ab205815a8065d30d7cf3afe8f0bc; SESSDATA=149f00b1%2C1676908274%2C9a2d9%2A81; bili_jct=3ab1d0322355df6e807f5658f1ec0292; sid=hpelw6as; PVID=1; b_lsid=21036AB7D_182D095EEA7; b_timer=%7B%22ffp%22%3A%7B%22444.45.fp.risk_BD8232FB%22%3A%22182D095F30F%22%7D%7D"
+          },
+          "paramLib": {
+            "uid": "35912382",
+            "room_id": "23517773",
+            "csrf_token": "3ab1d0322355df6e807f5658f1ec0292",
+            "csrf": "3ab1d0322355df6e807f5658f1ec0292"
+          }
+        },
+        {
+          "requestName": "1",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "buvid3=9B58BF4B-2D95-AF52-FF3B-609EC1FAB9C072578infoc; i-wanna-go-back=-1; _uuid=3D263F95-D7DF-106E3-6DE7-24682AC9C78674721infoc; buvid4=ACA179B8-53BF-1791-A14D-47A1246A20A478584-022021619-ZpOKdHcItdtd7BcWO3o7+g%3D%3D; buvid_fp_plain=undefined; b_ut=5; LIVE_BUVID=AUTO9016450110439004; CURRENT_FNVAL=4048; CURRENT_BLACKGAP=0; blackside_state=0; rpdid=0zbfAHTlmi|6KCdi2dK|24U|3w1ObuVY; fingerprint=447db00d877e6c0d4423f6d98ac115e7; buvid_fp=447db00d877e6c0d4423f6d98ac115e7; DedeUserID=68327864; DedeUserID__ckMd5=0d1a6edf7622c735; _dfcaptcha=06cbbce1be098212fd36f8e1544c1860; PVID=1; SESSDATA=7dd26626%2C1676942764%2C52749%2A81; bili_jct=5899049d1387eb0948bf0214e392c027; sid=6znfqs69; b_lsid=7679104EC_182D2ACADCA; b_timer=%7B%22ffp%22%3A%7B%22333.967.fp.risk_9B58BF4B%22%3A%22182D2ACB21E%22%2C%22888.45797.fp.risk_9B58BF4B%22%3A%22182D2ACD320%22%7D%7D"
+          },
+          "paramLib": {
+            "uid": "68327864",
+            "room_id": "24397031",
+            "csrf_token": "5899049d1387eb0948bf0214e392c027",
+            "csrf": "5899049d1387eb0948bf0214e392c027"
+          }
+        },
+        {
+          "requestName": "2",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "buvid3=832EBD4B-9194-962A-3095-2D88976C2D3D52320infoc; i-wanna-go-back=-1; b_ut=7; _uuid=CBF196F4-E106E-1FFF-A99C-33832C5D69D1070470infoc; buvid4=6101CEA4-BA6C-6FE3-80D6-4A3C87B878E673757-022021611-HrHupCqjvT34pbA2remfCA%3D%3D; buvid_fp_plain=undefined; LIVE_BUVID=AUTO1216449839222523; CURRENT_FNVAL=4048; fingerprint=447db00d877e6c0d4423f6d98ac115e7; buvid_fp=447db00d877e6c0d4423f6d98ac115e7; DedeUserID=307542154; DedeUserID__ckMd5=bfaf5d07dc69b516; PVID=1; _dfcaptcha=fa9e7e783012419baa455f4ccdbebd3f; SESSDATA=6f32817d%2C1676942830%2C669e4%2A81; bili_jct=d76d09ac01d5adbd931124dc53ee1a8e; sid=p07y3w3w; b_lsid=A2472DB7_182D2AD831B; b_timer=%7B%22ffp%22%3A%7B%22888.45797.fp.risk_832EBD4B%22%3A%22182D2AD8624%22%7D%7D"
+          },
+          "paramLib": {
+            "uid": "307542154",
+            "room_id": "24396993",
+            "csrf_token": "d76d09ac01d5adbd931124dc53ee1a8e",
+            "csrf": "d76d09ac01d5adbd931124dc53ee1a8e"
+          }
+        },
+        {
+          "requestName": "3",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "buvid3=9948F762-F4B4-CE09-9C85-FC6CF17C347031907infoc; i-wanna-go-back=-1; b_ut=7; _uuid=5A68669C-48E6-5E2E-AB3C-7D28DAABD2E1036149infoc; buvid4=77594307-BF10-ECA9-220B-C58F954D3C8B41345-022062215-fs30e/wXVzEIgo9V4MfwwHdidIu2ATnDTuZ0Abu1sl2F+gJVZLfL0g%3D%3D; LIVE_BUVID=AUTO5916558835145150; fingerprint=87b37c34a012422d25ffb34e6c4f5e5e; buvid_fp_plain=undefined; SESSDATA=24d4d141%2C1671442210%2C097b2%2A61; bili_jct=c1cd7da4a7531fa250752460c86ee510; DedeUserID=316709644; DedeUserID__ckMd5=2499071b60180b43; sid=67j2wkd0; buvid_fp=b8760161c72bf070bf25f63e36ae4f35; CURRENT_FNVAL=4048; b_lsid=2DAF4811_182C655DF03; _dfcaptcha=8ef5a4f71ba75e806cb908b76e0adf5c; PVID=3; b_timer=%7B%22ffp%22%3A%7B%22444.45.fp.risk_9948F762%22%3A%22182C6566AA0%22%2C%22888.45797.fp.risk_9948F762%22%3A%22182C6570ACA%22%7D%7D"
+          },
+          "paramLib": {
+            "uid": "316709644",
+            "room_id": "23875500",
+            "csrf_token": "c1cd7da4a7531fa250752460c86ee510",
+            "csrf": "c1cd7da4a7531fa250752460c86ee510"
+          }
+        },
+        {
+          "requestName": "4",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "buvid3=5F10C9DA-00E7-1FFC-FD53-12983935CCE945083infoc; i-wanna-go-back=-1; b_ut=7; _uuid=25E9C17C-1C2E-CE35-35DC-59A83BB3D66446840infoc; buvid4=A5109CAD-DC41-1B08-D26A-1B99261E06F749992-022062215-fs30e/wXVzEIgo9V4MfwwHdidIu2ATnDTuZ0Abu1sl2F+gJVZLfL0g%3D%3D; LIVE_BUVID=AUTO2716559017853743; fingerprint=87b37c34a012422d25ffb34e6c4f5e5e; buvid_fp_plain=undefined; buvid_fp=b8760161c72bf070bf25f63e36ae4f35; SESSDATA=ce8a36b2%2C1671454071%2C9a907%2A61; bili_jct=d5d199426f3e8d23115f6b00fa1e2f98; DedeUserID=483615725; DedeUserID__ckMd5=7a4d1fd4ae596e34; sid=cj5rsrds; CURRENT_FNVAL=4048; PVID=2; b_lsid=C68F6437_182C6486D85; b_timer=%7B%22ffp%22%3A%7B%22888.45797.fp.risk_5F10C9DA%22%3A%22182C64AB337%22%7D%7D"
+          },
+          "paramLib": {
+            "uid": "483615725",
+            "room_id": "23876844",
+            "csrf_token": "d5d199426f3e8d23115f6b00fa1e2f98",
+            "csrf": "d5d199426f3e8d23115f6b00fa1e2f98"
+          }
+        },
+        {
+          "requestName": "5",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "buvid3=1D4301C4-A2F6-667F-7E9F-843AB67EA30369634infoc; i-wanna-go-back=-1; b_ut=7; _uuid=EDFD8491-5C67-76310-BD77-1032B95D910E10471272infoc; buvid4=CA406954-055B-A954-7C70-04ACD48F1B8773458-022062215-fs30e/wXVzEIgo9V4MfwwHdidIu2ATnDTuZ0Abu1sl2F+gJVZLfL0g%3D%3D; LIVE_BUVID=AUTO7316558896519963; fingerprint=87b37c34a012422d25ffb34e6c4f5e5e; buvid_fp_plain=undefined; buvid_fp=b8760161c72bf070bf25f63e36ae4f35; DedeUserID=351208329; DedeUserID__ckMd5=7604d6ef2764a2db; CURRENT_FNVAL=4048; SESSDATA=ba169acb%2C1675321129%2C4e435%2A81; bili_jct=55694f7c51e4d600344f73facd7411ab; sid=fjjwmkgy; PVID=2; b_lsid=576C94F9_182C6583537; b_timer=%7B%22ffp%22%3A%7B%22888.45797.fp.risk_1D4301C4%22%3A%22182C6583736%22%7D%7D"
+          },
+          "paramLib": {
+            "uid": "351208329",
+            "room_id": "23877915",
+            "csrf_token": "55694f7c51e4d600344f73facd7411ab",
+            "csrf": "55694f7c51e4d600344f73facd7411ab"
+          }
+        },
+        {
+          "requestName": "6",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "buvid3=F607B70A-722B-03ED-408A-CB6E878BCC4476353infoc; i-wanna-go-back=-1; b_ut=7; _uuid=E158F1109-C1C3-FC91-3D1A-25FEA12CCA4677148infoc; buvid4=D3E8CEDF-E00E-1A9D-95E0-FD7EE1076D2082757-022021522-0a8Uniy4MYipVC5FtvxBFQ%3D%3D; buvid_fp_plain=undefined; LIVE_BUVID=AUTO1116449362386607; fingerprint3=f24b9a32d58eef7ae66b2da37469cf7d; fingerprint=87b37c34a012422d25ffb34e6c4f5e5e; buvid_fp=b8760161c72bf070bf25f63e36ae4f35; SESSDATA=77afb75d%2C1671454853%2Cc4d45%2A61; bili_jct=762b2d0a9bbfb362a1425d03de2998ef; DedeUserID=381125345; DedeUserID__ckMd5=d8f540051c2f9fbf; sid=8znm756v; CURRENT_FNVAL=4048; PVID=2; b_lsid=ED9D66F10_182C6593D7A; b_timer=%7B%22ffp%22%3A%7B%22888.45797.fp.risk_F607B70A%22%3A%22182C6593FE7%22%7D%7D"
+          },
+          "paramLib": {
+            "uid": "381125345",
+            "room_id": "24391090",
+            "csrf_token": "762b2d0a9bbfb362a1425d03de2998ef",
+            "csrf": "762b2d0a9bbfb362a1425d03de2998ef"
+          }
+        },
+        {
+          "requestName": "7",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "buvid3=9EDB1552-2825-4BC9-A054-9BD9586F2656148818infoc; _uuid=CA2105216-41055-10C34-426A-2C7AF1AF2DA617685infoc; LIVE_BUVID=AUTO7016574543163457; buvid4=6080C7CB-33C1-BE6A-D7F5-5E33ECF18EF417652-022071019-W40SqsG4CH25+z1SRYI+iA%3D%3D; fingerprint=a4ffc263f55d5ffebcd9d8d11454967f; buvid_fp_plain=undefined; buvid_fp=c02d79b062ca538320f0447200c99c7c; SESSDATA=2ff49d7b%2C1673006429%2C2111d%2A71; bili_jct=73603b55971886b1de0e9454ab1f3819; DedeUserID=498522208; DedeUserID__ckMd5=f46e0683efcab705; sid=5raz5xi3; CURRENT_FNVAL=4048; PVID=2; b_lsid=C2B9A98C_182C65A11EE; b_timer=%7B%22ffp%22%3A%7B%22888.45797.fp.risk_9EDB1552%22%3A%22182C65A140E%22%7D%7D"
+          },
+          "paramLib": {
+            "uid": "498522208",
+            "room_id": "24996621",
+            "csrf_token": "73603b55971886b1de0e9454ab1f3819",
+            "csrf": "73603b55971886b1de0e9454ab1f3819"
+          }
+        },
+        {
+          "requestName": "8",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "buvid3=C82E1FDD-E25F-4FEC-843A-70CC2CF65E45167630infoc; _uuid=9AFAAEC5-6DFD-53DB-37B4-10CC65F6EBC6161396infoc; LIVE_BUVID=AUTO7916574544601969; fingerprint=a4ffc263f55d5ffebcd9d8d11454967f; buvid_fp_plain=undefined; buvid4=6FA6C59A-EE57-1231-D4E0-B07201E223A361658-022071020-W40SqsG4CH25+z1SRYI+iA%3D%3D; buvid_fp=4ddabd0e0d2842b7331c22ec86a56c80; DedeUserID=1149340373; DedeUserID__ckMd5=bed22c39de6d5299; CURRENT_FNVAL=4048; nostalgia_conf=-1; SESSDATA=d6376f34%2C1675912073%2Cf4bd7%2A81; bili_jct=48c035166bca374d943476c7c1d1ab88; sid=8u3fzmo6; rpdid=|(J~RYR||)~)0J'uYY|JY|~|~; PVID=2; b_lsid=6FD4EF5C_182C65B0FDB; b_timer=%7B%22ffp%22%3A%7B%22888.45797.fp.risk_C82E1FDD%22%3A%22182C65B120F%22%7D%7D"
+          },
+          "paramLib": {
+            "uid": "1149340373",
+            "room_id": "24999862",
+            "csrf_token": "48c035166bca374d943476c7c1d1ab88",
+            "csrf": "48c035166bca374d943476c7c1d1ab88"
+          }
+        },
+        {
+          "requestName": "9",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "buvid3=907EC744-BCBF-C315-5152-23A2F0E7597053302infoc; i-wanna-go-back=-1; b_ut=7; _uuid=A8FCDA102-74810-83EF-C142-E10B6258FEA10955873infoc; buvid4=38F2A2DE-2F12-E954-4798-B056FBC7C0F057762-022071018-fs30e/wXVzEIgo9V4MfwwIXM4UVaPQBMb0+TcNcDFPX0/9uG8pNBfg%3D%3D; LIVE_BUVID=AUTO7416574546414139; fingerprint=a4ffc263f55d5ffebcd9d8d11454967f; buvid_fp_plain=undefined; buvid_fp=4ddabd0e0d2842b7331c22ec86a56c80; DedeUserID=500252064; DedeUserID__ckMd5=1bf038d083cc4e73; CURRENT_FNVAL=4048; nostalgia_conf=-1; SESSDATA=ab616946%2C1676597299%2C469af%2A81; bili_jct=d22855bad8284eceeabf79ae921c5f76; sid=5d6mc01c; PVID=2; b_lsid=33793AFB_182C65BBB5B; b_timer=%7B%22ffp%22%3A%7B%22888.45797.fp.risk_907EC744%22%3A%22182C65BBEC9%22%7D%7D"
+          },
+          "paramLib": {
+            "uid": "500252064",
+            "room_id": "25004585",
+            "csrf_token": "d22855bad8284eceeabf79ae921c5f76",
+            "csrf": "d22855bad8284eceeabf79ae921c5f76"
+          }
+        },
+        {
+          "requestName": "10",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "buvid3=CBCCF529-6CFA-F4A5-6EF6-DA35A51C6C4753982infoc; i-wanna-go-back=-1; b_ut=7; _uuid=610A28D2E-19410-1A18-61AD-34945F32EA8E55925infoc; buvid4=DB3E228B-2C76-D44F-3C23-5B13A093A5B765808-022081618-W40SqsG4CH1YXYXtjLVNnw%3D%3D; LIVE_BUVID=AUTO9016606474908628; fingerprint=447db00d877e6c0d4423f6d98ac115e7; buvid_fp_plain=undefined; buvid_fp=447db00d877e6c0d4423f6d98ac115e7; SESSDATA=3a171d50%2C1676199995%2C1570b%2A81; bili_jct=9d1234bf8220176b1895ccb38f978c00; DedeUserID=1907009568; DedeUserID__ckMd5=722e3e3e0b30f790; sid=53qthrci; fingerprint3=b4c4d26e333d6f70b73ae486a52146ea; PVID=1; b_lsid=6182618E_182C65CDAC3; b_timer=%7B%22ffp%22%3A%7B%22888.45797.fp.risk_CBCCF529%22%3A%22182C65CDD4D%22%7D%7D"
+          },
+          "paramLib": {
+            "uid": "1907009568",
+            "room_id": "25765718",
+            "csrf_token": "9d1234bf8220176b1895ccb38f978c00",
+            "csrf": "9d1234bf8220176b1895ccb38f978c00"
+          }
+        },
+        {
+          "requestName": "11",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "buvid3=59A50B7B-CB5C-37FD-375E-116187AFF54E06008infoc; i-wanna-go-back=-1; b_ut=7; _uuid=10E5A55102-B3CE-97FA-AD41-BE6A3D1C1AF604959infoc; buvid4=417EE67E-3619-D27C-6DEA-3D1F0C9D46BC09003-022082219-W40SqsG4CH1YXYXtjLVNnw%3D%3D; LIVE_BUVID=AUTO4516611692368735; fingerprint=49d89934a5244b61619943795fa54653; buvid_fp_plain=undefined; buvid_fp=49d89934a5244b61619943795fa54653; SESSDATA=f72baf03%2C1676725582%2C76df1%2A81; bili_jct=1601c68dd21f5a0f0a6f57a458112f7a; DedeUserID=1936465070; DedeUserID__ckMd5=815ca55a9e4e925d; PVID=1; fingerprint3=b4c4d26e333d6f70b73ae486a52146ea; sid=7ok52nbr; b_lsid=AB18CCFE_182C65DD094; b_timer=%7B%22ffp%22%3A%7B%22888.45797.fp.risk_59A50B7B%22%3A%22182C65DD4A1%22%7D%7D"
+          },
+          "paramLib": {
+            "uid": "1936465070",
+            "room_id": "25813265",
+            "csrf_token": "1601c68dd21f5a0f0a6f57a458112f7a",
+            "csrf": "1601c68dd21f5a0f0a6f57a458112f7a"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": "虎牙",
+      "globalUrl": "https://i.huya.com/index.php",
+      "globalParamUrl": "",
+      "globalHeaders": {},
+      "globalParams": {
+        "m": "ProfileSetting",
+        "do": "ajaxChangeLiveInfo",
+        "game_id": "5489"
+      },
+      "method": "get",
+      "once": true,
+      "interval": 1000,
+      "start": "",
+      "requests": [
+        {
+          "requestName": "0",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "udb_guiddata=be4836d87c4c4e42a20034663363a3b6; udb_deviceid=w_531029968035340288; __yamid_tt1=0.20479738072663412; __yamid_new=C9A9063C5E800001462ECA10AE0066A0; game_did=0kDzrG5S-VJl3mDMgzgKeItuMKeEqpYWdZy; first_username_flag=hy_178221194_first_1; guid=0a439f3358edd461f001dc56dd56679a; alphaValue=0.80; SoundValue=0.00; udb_accdata=08613687177867; udb_origin=1; udb_passport=hy_178221194; udb_status=1; udb_uid=1199587517547; udb_version=1.0; username=hy_178221194; yyuid=1199587517547; guid=0adb90426635d561f001bd4cbe4caf50; isInLiveRoom=true; huya_ua=webh5&1.0.0&huya; udb_biztoken=AQBgYfjQsKkmm0YyMYCt2wCkQLrVn_LLphCt_1Q3JZWy9h1ZDhcfzOPcYnCU4Re00g1WCkEFdAcZnIwyCluzUOIXeh4_JwvJ_y9dwiohFXV5DHuT2q_jREzgBy2EAfzlhO_iodoFT9YgGg98vgYRxKXIyl_d-rDw3QBAuNi_EthjsylPLgRPgJlvYX_KpiWdg52enjDNYRoMAHOBtN5wa--qzamOxxWb7-z1k-3jumVJr3SMOOUZqnn0WujE0ILOnO5ZaEoH9hyxWRFWXUp8c8oWEMnvrI2VKxmkEq6ba-PC1ahvCOFIr8J3MmsaPYm3bzGXN3f86e2UE1WS_InTxEV3; udb_cred=CoDSjA7Ize2NYGGecP41tYTyBqEiFZb_9_H39BhEQQAK4awbFYtRmak3RKFZ0gTV72ZTRt2KYLWrHt9SniQgLZh7vtqMqVPgAavtx6c1vh_TSg2Y3nP0cgCMurWEh0qSJSU; udb_other=%7B%22lt%22%3A%221660869377111%22%2C%22isRem%22%3A%221%22%7D; Hm_lvt_51700b6c722f5bb4cf39906a596ea41f=1660873301,1660878426,1660964271,1661045400; PHPSESSID=fgnpmg8d1vnu6svvbttj23lfm3; __yasmid=0.20479738072663412; __yaoldyyuid=1199587517547; _yasids=__rootsid%3DC9F36563DB800001F98D15151CCD15FB; undefined=undefined; h_unt=1661307412; udb_passdata=3; rep_cnt=54; huya_web_rep_cnt=94"
+          },
+          "paramLib": {
+            "live_desc": "且闻故琴____"
+          }
+        },
+        {
+          "requestName": "1",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "__yamid_new=C9B6AFA3E5800001E0248F891E701851; __yamid_tt1=0.481719192911618; udb_guiddata=86790a3daad24309b5d6cbdaaa087224; udb_deviceid=w_546412128884277248; game_did=4LDm0Ktc0PY3OgTEQ42Fh9QsicPSYP9EM9j; first_username_flag=hy_47174441_first_1; guid=0adb1cf98ee00c62de01bb6bbc6bcb13; alphaValue=0.80; isInLiveRoom=true; huya_ua=webh5&1.0.0&huya; udb_accdata=13330505256; udb_origin=4; udb_passport=hy_47174441; udb_status=1; udb_uid=1279522069783; udb_version=1.0; username=hy_47174441; yyuid=1279522069783; guid=0adb1ea1e713b362f901d2aad3aaa283; SoundValue=0.00; udb_biztoken=AQBSEMQb58jtAkbTyI6rD4h2IeUv6S-pR_TFwBVHtxVlHAZakq9vxbIB7CYnI495WD4GiCRtWMJSVl2WF4W6VKXWBN2PihMFTti8Vs7pN4wb55TVnUClUpYxziZ_pmmBHYtrng01vAe_KqKo9n0swlRuLCX2zSP37bB1hsFCOpYPsZd8Ew5dACj7-DwlSynaeMgcRFQOjc_RtrWMK60OyzWbKd66xqB9uMqUcoYJt2ubyn5eMWx4oHQBksPFUB-b8cQLhYcGQm5lYmY6Cm6He7TKR-KAhbmFvbZmaeZXFd_kTDMWwmPp3wzwPBGSww0XgxXq3cykG6v2Q64-BPMcPGFJ; udb_cred=ClA51UhsHQ-NDStC4pQeg866T7Sjx8a5adGbQF2rfYOlUE8EcI6oaKsxBTa5O8d5s72LqJtIuu1NkzflyXNna9-OmfwBhp3feFYhuvL08OQBDGFKcs5VpzM3_ycHYhDKA9g; udb_other=%7B%22lt%22%3A%221660964343290%22%2C%22isRem%22%3A%221%22%7D; Hm_lvt_51700b6c722f5bb4cf39906a596ea41f=1660869508,1660878541,1660964325,1661045417; PHPSESSID=6ck59v6lmfmco52vleujb8qof6; __yasmid=0.481719192911618; __yaoldyyuid=1279522069783; _yasids=__rootsid%3DC9F367C428500001AB9D2A405180A340; undefined=undefined; h_unt=1661309904; udb_passdata=3; huya_web_rep_cnt=7"
+          },
+          "paramLib": {
+            "live_desc": "夏小黑的直播间"
+          }
+        },
+        {
+          "requestName": "2",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "__yamid_new=C9B695E9F5A00001E4FA7A0063103070; __yamid_tt1=0.3695732286586211; udb_guiddata=15db9130b82844e899483e4f82a52cb9; udb_deviceid=w_546298639374528512; first_username_flag=hy_208704010_first_1; guid=0a42cdedd2760c62eb01916792678926; game_did=tpPwUncwuAlEHyHXpMzS-SBxNj3-r2savuo; alphaValue=0.80; isInLiveRoom=true; udb_accdata=18373373761; udb_origin=1; udb_passport=hy_208704010; udb_status=1; udb_uid=1199601884847; udb_version=1.0; username=hy_208704010; yyuid=1199601884847; guid=0a42e42ea415b3623aaf8cce8dce704d; huya_ua=webh5&1.0.0&huya; SoundValue=0.00; udb_biztoken=AQBDTMHLWgBWIy9hJAUvmkXjAF-N2hj3lb5tWtD0lHdC-9HMmXutkhS5l8iD6oDaioOnMh_3kdC7hHa_HZ9dQo95nMCYRmr1cOFV_NpbmU7eRTSCRwE2c848Q0vIl5Trx30MqqbxrWbFRsf6wGInTS2yGKJrb79pFipME9gNL6nuKBxp07Tv-3_MfNAGV7LcrdTofsLZV1Y0xom4iTC6VeMDDsKBBOuNGxMno6sNHkyDBFt6rk5pQ1b0SHVFwEjzFqrY2iZROjkwmObqPvdqPy2erGaDZG11f9OL__JRZBtoLzRPUm5uPOH7n6j1uxMO7UkmFgqr7lY9iNszw8dMwFWk; udb_cred=CnBhFraP7ucZ0VhdyUaxXWcK2xRaRRzhb-46oHHB-AkxvswE4tAolA-i94QzLX8xLY4GkaBPe_hCiKSG3woKW-hzyJUYw_Q_fQfVY4hz8oaxNJVEgrAlwTI6x2WMYvE8ZO8; udb_other=%7B%22lt%22%3A%221660869585159%22%2C%22isRem%22%3A%221%22%7D; h_unt=1661045442; Hm_lvt_51700b6c722f5bb4cf39906a596ea41f=1660869621,1660878579,1660964374,1661045447; PHPSESSID=pgtqn8ls3v28lrik0jr72cbe80; __yasmid=0.3695732286586211; __yaoldyyuid=1199601884847; _yasids=__rootsid%3DC9F367DCC9900001134264FDE7A0EBA0; huya_web_rep_cnt=3; undefined=undefined"
+          },
+          "paramLib": {
+            "live_desc": "YIWANGCHU的直播间"
+          }
+        },
+        {
+          "requestName": "3",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "__yamid_new=C9DF30BD562000018CC816A01D586EA0; __yamid_tt1=0.8793768304573912; udb_guiddata=d0c92dc0a1354024aea274c3d5eda44d; udb_deviceid=w_592015512643108864; udb_origin=1; udb_passport=hy_196543746; udb_status=1; udb_uid=1199593910880; udb_version=1.0; username=hy_196543746; yyuid=1199593910880; first_username_flag=hy_196543746_first_1; guid=0adb177a4fe1b262d6fe82ce83ce14d9; game_did=sS3eCmMZ4pZ1hdW1jguwsJAfajJCp9DiQsp; udb_accdata=17602381373; alphaValue=0.80; isInLiveRoom=true; guid=0a43e46f37eec8627901f352f4527139; SoundValue=0.00; huya_ua=webh5&1.0.0&huya; udb_biztoken=AQApvB-9NLYC3RJOdUkdiSMAgp8Yt1_9CygbSxqC29M4T7JBlkRxjrcAUj3CWYmQoVAIXN-WLfKYWKFiIJ4YD6MjuEPyLN416j540kPJYlPIpL1JcJYfRtol0IsJh3lUsttECtvWsQyL79pFUY3FhRAMgPx0OWaoLXRL_tjjxyaDdJSzGj5Cc0mDEpC0VuwuZBgNy6K2Bwews_8IUbkwTMyhB-aYrZQrz3MEoabjWLxArGWn9F5zfbFurwyIue9u1XcbD8wCU9OCvElZ6b3DwZlKOxYkMDAKlN_bAmRATtK8VeT2qRgAv1UXk9wXwXwkn0DcFnAAq2r2Od3nQuM6ymJd; udb_cred=CnAgl7Q-WX89mId4X0yuHVF58R9dBu69fPIWSGmV9t9ACT37C_2rHfCj76PmS2W3B3xLK2aFlaFLAQboiyXjmORLKPhMkefMKEoQVqq3MiEu1dJZfw3oQ_j2cGsCFgIkPKw; udb_other=%7B%22lt%22%3A%221660869655384%22%2C%22isRem%22%3A%221%22%7D; Hm_lvt_51700b6c722f5bb4cf39906a596ea41f=1660869637,1660878595,1660964387,1661045464; PHPSESSID=44holrnk8ps2gntrcohsvme930; __yasmid=0.8793768304573912; __yaoldyyuid=1199593910880; _yasids=__rootsid%3DC9F367E8851000013F3EAE4016F0AD50; undefined=undefined; huya_web_rep_cnt=5; h_unt=1661310052; udb_passdata=3"
+          },
+          "paramLib": {
+            "live_desc": "可以橫绝独夜人"
+          }
+        },
+        {
+          "requestName": "4",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "__yamid_tt1=0.7929596830283496; __yamid_new=C9DF422E1AE00001D52C1BA7178CC420; udb_guiddata=ce24f634f9cf438b853000a21eb38278; udb_deviceid=w_592092212341874688; udb_origin=5; udb_passport=hy_59192046; udb_status=1; udb_uid=1259527492416; udb_version=1.0; username=hy_59192046; yyuid=1259527492416; first_username_flag=hy_59192046_first_1; guid=0a42e42e2e0fb36240afc200c30067dc; huya_ua=webh5&1.0.0&huya; game_did=HvQsgIaDJ2atq0asUyAulmfPgdtKcrbndus; udb_accdata=18672095037; alphaValue=0.80; isInLiveRoom=true; guid=0a42a245a8eec8624e015bd85cd8eb3b; SoundValue=0.00; udb_biztoken=AQAXHxn_k4ThbDhWVX1-48TPkPfNp7ZjInMRK4nIHvULI67D6S-BfCzACMoO2KXWv8kzw9pjd04AmagSEVqtMKlBXHb4gdevWpEK1PtorQcOaVxTV4SVZn5s4AkXInRdmSfMqcEZmDGHMVJONc_v0w6Jv5i8vLaK3AuY-kP8V64Yucz_-V1H0xP2B0OsANSb_7eAAO2pZXN-b_Plz3IwZrzu0KYRqNPHLP0XEVmSNopCjVmoHOZELFaKB701ei06UWmIybqy25RB-tVAd3SX2MsROO3iI1BkejybijZjEN-_TjBAjTlNOYsi8tQgOn_AFbrecu6iVQtVpLWJ60loongo; udb_cred=ChCjclgezOEnWyiYVnDO8DTg2eLUXSSD8GXIHad-H2f_RNO8RTT4HNXIHV8jdLlvRDJXArJ71HAQfbhd6hmCkp-TX85_IaNfJ4v_9Mx1tVg93OmRfNYgmX4IU7xK-xVmDSM; udb_other=%7B%22lt%22%3A%221660869707679%22%2C%22isRem%22%3A%221%22%7D; Hm_lvt_51700b6c722f5bb4cf39906a596ea41f=1660869704,1660878609,1660964400,1661045481; PHPSESSID=7m9algmtije595ohntae0u5i35; __yasmid=0.7929596830283496; __yaoldyyuid=1259527492416; _yasids=__rootsid%3DC9F367F18AC00001B0421A42D7201B7C; undefined=undefined; h_unt=1661310089; udb_passdata=3; huya_web_rep_cnt=9"
+          },
+          "paramLib": {
+            "live_desc": "-若凌Provence"
+          }
+        },
+        {
+          "requestName": "5",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "__yamid_new=C9DF3699FE7000018AC018701DF61544; __yamid_tt1=0.9523411521651799; game_did=Hm-6QFO3OwdwM6rY7gY17TzoLu195nqJhC8; udb_guiddata=9520ac5fc7a94380971aa1d0158f1c08; udb_deviceid=w_592041341991378944; udb_origin=5; udb_passport=hy_17823862; udb_status=1; udb_uid=1259518386179; udb_version=1.0; username=hy_17823862; yyuid=1259518386179; guid=0adb1ea1cedfb262ef016e656f65b035; first_username_flag=hy_17823862_first_1; huya_ua=webh5&1.0.0&huya; udb_accdata=13986757140; alphaValue=0.80; isInLiveRoom=true; guid=0a708caf25efc8628101053e063e0747; SoundValue=0.00; udb_biztoken=AQAyG6xzRLWiWvbd0HPJr3T5uLK7ixQerCCYndu-E8tAJDH1zpjOdMD3YUy4hfEZymOl3hq50TX-Wo-_809xWP306EmRaLN0t0CZpGq4G9O_yB37FMTDUgHMSrvKgFgPVl0FvdMI_ydal55Yj3_2ayIUMe2CgrsYpiCsTlCVrqURSPmQXJLSe8Gg2_bvLyLDjbfF4RXuBY2Q2vturIHMJ4DX1W_tF75hcCfYdxEL3Nj7owhf3Djbs0eD3TSmEqx_92UdUROP_RDIA-lN6O90CPwCsE2zyB6p30l-oyp81jA2N6t3z0UvF1aTs4TPES6_NEbilLep8K0qgZoldCJbcqpK; udb_cred=CgAt2vIl054L3pbotS5gmNVAMLo5ZPKhu-6sXEnk7LCc6Rv6LiBQBNxTt6KKfIHpmw4qw5tAvTrqaoBoPaMrl1tz4nAliwCjA-r490d1xaSp0fm0JBEHMmzWVE92cADbw4E; udb_other=%7B%22lt%22%3A%221660870212929%22%2C%22isRem%22%3A%221%22%7D; h_unt=1661045491; Hm_lvt_51700b6c722f5bb4cf39906a596ea41f=1660870248,1660878627,1660964414,1661045495; PHPSESSID=v374k29ipgslcldd275arhk5v2; __yasmid=0.9523411521651799; __yaoldyyuid=1259518386179; _yasids=__rootsid%3DC9F367FCB190000160C81AC0120CC070; huya_web_rep_cnt=3; undefined=undefined"
+          },
+          "paramLib": {
+            "live_desc": "又是新的一天"
+          }
+        },
+        {
+          "requestName": "6",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "udb_guiddata=671f8cb27d7c4d7395457f40a47f7bcf; udb_deviceid=w_546097872828985344; game_did=Y8kEfkvWlu87fR2venLD9YUJfpqnYnFGKt3; __yamid_tt1=0.04192543432743778; __yamid_new=C9B6684951500001A696441017303410; guid=0adbbcddc9bb0b628401b8fab9fa7d18; alphaValue=0.80; isInLiveRoom=true; guid=0a43e46f3374c96275018bca8ccad243; SoundValue=0.00; udb_origin=1; udb_passport=hy_208675822; udb_status=1; udb_uid=1199601863487; udb_version=1.0; username=hy_208675822; yyuid=1199601863487; udb_accdata=18623232899; first_username_flag=hy_208675822_first_1; huya_ua=webh5&1.0.0&huya; udb_biztoken=AQAg3H7EKSZ7tW4Jn3sPVwRLdZRQKa4OJr2u4DSXCHsck9yhH2dWYTSs1zhuVmP9jeu5yJ9i2lc9ov3lSQfncLQRRliqa_rOp6jni9KZ1huUlu97iHTFTO0np_czxzrZuCfDm0XSTO20QsT8ghfFQ8dF11vqWvKM6kn-21pIMG0evmDxS9ow9yxIYOSFh_Jbqm7uNuaxDaxId6SBgWV2qeM7pvRwBWbr1azzCVETzpcyUlS7ajAmJjb_i3g_gRoS35xgCI1vj_nMSPxRUiTOXNEH6DFhgFK6lAMZYcJgB43dhyOWrlMIidcoWx-fYndSWe2oVEPD1LRdFEGt9vlyqM8k; udb_cred=CkBtVw3jgClEmLoOcErRIQj6XKJDE54O9qCFNSiZUsqfazQfJhsw7F_9anMHSzW7sO28idjYH-tBjxQhg-oXA5mAjxdGZzz14mP76HvUUdMgQjeOZ0ei98q7QaY59NJQtZA; udb_other=%7B%22lt%22%3A%221660870287234%22%2C%22isRem%22%3A%221%22%7D; h_unt=1661045506; Hm_lvt_51700b6c722f5bb4cf39906a596ea41f=1660870267,1660878640,1660964440,1661045510; PHPSESSID=b7v08scfaptbajg24mnh5ldfn5; __yasmid=0.04192543432743778; __yaoldyyuid=1199601863487; _yasids=__rootsid%3DC9F3680BAA200001DD6BF340F8BD1167; huya_web_rep_cnt=3; undefined=undefined"
+          },
+          "paramLib": {
+            "live_desc": "惟有过贾谊宅的直播间"
+          }
+        },
+        {
+          "requestName": "7",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "__yamid_tt1=0.6195048176882583; __yamid_new=C9E50AD034A000018F59188C1239BC90; udb_guiddata=3831517457b64826ab769d225387893e; udb_deviceid=w_598604099737513984; udb_origin=1; udb_passport=hy_217272196; udb_status=1; udb_uid=1199608416771; udb_version=1.0; username=hy_217272196; yyuid=1199608416771; guid=0adb3fb26cbfca62990107ee08ee63b6; first_username_flag=hy_217272196_first_1; game_did=ubNR5h7Ss8y84SvjvX4ooa6lj6KPf5K6PB2; alphaValue=0.80; isInLiveRoom=true; guid=0adb3fb225c2ca628f01c78dc88dd86e; SoundValue=0.00; udb_accdata=18290284200; huya_ua=webh5&1.0.0&huya; udb_biztoken=AQChy0EZcMQ6ePfRzDA0n1rtEBzkOr_4rNNW1rudrMaZVG8tdDhIQ3XHc_TfjdsHZ_fw5NKnL2jfDzrIKx243Do4mm14pHg6x4kBsZClPRkOCM76-TjiQxO2yAiAH_8-VtqwxwReb755WDzKkRxlgVhm0Dz4Uv0CsQBw4a6p6cxwQ_XOShE066CV6WXKalsujqNLYJUTFD1zNtyax4a4jlTEhC3utPhdlw6OOkDI29UsldR-02UiZJCfFb-sL6oq2GSAw-3QtlJyrfbYOuM4CPwMR09WehXG4QEhgIJVTgJOcggiK-EFtk_pftRDdg1df1KbK0r9rF42x6DRkl0C7eOq; udb_cred=CgDIRejcpCB85EVVF4eqzIM2eINHpktwdjEXyqFoVK9PhTbiWLlHOANGRIGyMBFKEWH9mvXecIFC4hjHCnvxqUI8jf2FwdfCikEOgaojAbVybrzhpiZGkxUThyM1BEExAnQ; udb_other=%7B%22lt%22%3A%221660870354451%22%2C%22isRem%22%3A%221%22%7D; h_unt=1661045527; Hm_lvt_51700b6c722f5bb4cf39906a596ea41f=1660870340,1660878660,1660964452,1661045532; PHPSESSID=g339iqhcc46cdt13ja70ilg4p2; __yasmid=0.6195048176882583; __yaoldyyuid=1199608416771; _yasids=__rootsid%3DC9F36817E53000019491109213B01CC2; huya_web_rep_cnt=3; undefined=undefined"
+          },
+          "paramLib": {
+            "live_desc": "冲冲冲"
+          }
+        },
+        {
+          "requestName": "8",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "__yamid_new=C9E50AEDC29000014E47176016D413B3; __yamid_tt1=0.7185390580412319; udb_guiddata=e155843bbd2348c9a01f2ead67426462; udb_deviceid=w_598604614884847616; udb_origin=1; udb_passport=hy_217301104; udb_status=1; udb_uid=1199608439885; udb_version=1.0; username=hy_217301104; yyuid=1199608439885; guid=0a42a24504c0ca625601d573d673e09f; first_username_flag=hy_217301104_first_1; huya_ua=webh5&1.0.0&huya; game_did=xa86FCVudliqhVicUsxqS8V-pzD1AuDTxkH; alphaValue=0.80; isInLiveRoom=true; guid=0adb177a2dc3ca62d1fe00780178e197; SoundValue=0.00; udb_accdata=17383094994; udb_biztoken=AQAYbAF8SJ6HQXiZ05fS5hsLItpE9sraL8zOlLRm9JlgYEQhjIoKuJDkTgbbSjMfP4ucktvzRIR3eDiZPBx1-X7BkJFv4ZmXn5pYiTPAA6dmjgTpKYt5MSYlERWiwrfnBuQc7T--XPHDVF__1kfhgNVr6u1MIT7m4nn4j99FpLE-WgzQk9U1_cSyUKkPBDHmsFWLuYd9sxDyaQ1SlXICDHttO66vuBG3h11pMR50-SpiHAw45IFdMMAQgKZq435KKdd9ysTRGRBYzlF0tdZUUpC_Axc3IeY0Ga7qt_Fc8yxrbU6mpT_QEzCRNZtdfFXGdEpHm3hi0OBDWsfRZx_5lUAY; udb_cred=CjDpNW2G0AgzBZ3ri5CCw_38s5t_J8vIhUhQ-0X_cHXreP8FgytrNRjORlJr4ypbkumM81d9P-JeYJSk3lRfcjXXS909JBsNeExfR3tBoo4bgV9DMT4V6H_PMSRfgLgH1Tg; udb_other=%7B%22lt%22%3A%221660870407773%22%2C%22isRem%22%3A%221%22%7D; Hm_lvt_51700b6c722f5bb4cf39906a596ea41f=1660870402,1660878674,1660964467,1661045546; PHPSESSID=nc30sktdljjlec0jbk6tfnqhb0; __yasmid=0.7185390580412319; __yaoldyyuid=1199608439885; _yasids=__rootsid%3DC9F36820BE300001CB451470F0901E27; undefined=undefined; h_unt=1661310283; udb_passdata=3; huya_web_rep_cnt=9"
+          },
+          "paramLib": {
+            "live_desc": "山林悲欢离合的直播间"
+          }
+        },
+        {
+          "requestName": "9",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "__yamid_tt1=0.7854664150789121; __yamid_new=C9E50B1A1D6000011CC38B701F90CEB0; udb_guiddata=07519436c59c454bbe58cf29314412ab; udb_deviceid=w_598605374269865984; udb_origin=5; udb_passport=hy_192646428; udb_status=1; udb_uid=1259585281932; udb_version=1.0; username=hy_192646428; yyuid=1259585281932; game_did=uAC5HOlWpUHnrJXnqnAjEbmmtjKnI3OLAb1; alphaValue=0.80; isInLiveRoom=true; guid=0a42e6e4e5c3ca62c1014ad94bd98b28; SoundValue=0.00; udb_accdata=17338642364; udb_biztoken=AQABqyw8Xa524yjUHym9f2MwQTKQnVRVLgQ6w4TOGirw3NP3lB-anpyqKmHnnJ-CompQplajAh9m_mIv4OlXY06ABBa5E8XWVNt_3d-V2VvGrhuQp4gGYOW_RSJdmp-aMPR1oBsrBn9NOg0-g_XW5y09rp7jp4C2nOqM55lrvkYM72x7F0xWgI9DFivMYv14ZVqsQO4Y-V2Vwg2OMzBg5RSy9Hx9tMnu--dEh5RuoSw1PICl0FNeVhs85wbKE0dOG64x0q2vkrnNcGJAleTowtJztvgu_zbq0LxnqgvZMn5DdPTAWQ-0BgjhAse5CRUZkzuj4vCwIepEMZFsY5KUiSLw; udb_cred=CmDOUOua7QQycSeuE0zXZh1899DZjEyv-x0x1_i5eYbg2xiITKt6ac1cNSesWJUxL-x-9X2w66MrYIlgb1U7m0SXxbOQYGQiAjBSvudl4jHCypHdQUwN9tL07wqsuZQbMck; udb_other=%7B%22lt%22%3A%221660870470279%22%2C%22isRem%22%3A%221%22%7D; Hm_lvt_51700b6c722f5bb4cf39906a596ea41f=1660870450,1660878693,1660964480,1661045561; __yasmid=0.7854664150789121; __yaoldyyuid=1259585281932; _yasids=__rootsid%3DC9F3682C28000001D7F81F22E4E089A0; h_unt=1661310329; udb_passdata=3; huya_web_rep_cnt=9"
+          },
+          "paramLib": {
+            "live_desc": "孤蝶伏枥志在千里的直播间"
+          }
+        },
+        {
+          "requestName": "10",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "__yamid_tt1=0.1988314466903378; __yamid_new=C9F0F00C48F0000186F5C2B018E713B8; udb_guiddata=ff3f614202864a6ab0db5dd6f7e813b4; udb_deviceid=w_611997185155145728; first_username_flag=hy_225106391_first_1; guid=0a42d3ec9878fb627e013ae13be197fa; udb_origin=1; udb_passport=hy_225106391; udb_status=1; udb_uid=1199614632617; udb_version=1.0; username=hy_225106391; yyuid=1199614632617; udb_accdata=13669072753; game_did=hbeZiWdnHnj-FZY0LmrXj6poyyEv7l1t236; SoundValue=0.50; alphaValue=0.80; guid=0a70cd83adebfe625101d68bd78b1702; udb_anouid=1464663516094; udb_biztoken=AQCdfrYdwRpaaZFY1vMq2jIR11y75q4g4orXlomhNuw7BtxDIVHq6QaIrzTtXFhKxC-tRBl1jzOhrvfmJMYxlso-BFiL-Vyfgsf9EW5qRHNDusFeskV9iXcNwxGGnv2L8ij4iwNcpxHI4Wws8US5HpG0qO0xg7W6AQh8nqisGjyIL5ZgvmSa5VZ-LxLu_89mmjXALkirjg3bzoajABDc0Y0fPAwLa2qbya7VwTIQRS6yMAXcOCRuA_exyFRIit5i-g2k4Rm9yNJIWRRfL7Ix65oUjGaYo1wjFANPBMNZOYWl46fr4VfuplUbiIVZyENGdzFn8jjbnqGp9ZrzV2-JPsH5; udb_cred=ClAr-QiPX-cl2urWo0PrS-blEuO1owSE3EqbI7340h4WgUGF-F79O_PSZCLktb2e3Hxn9yPYVv1z59WzgIgT_oKug-78rRClPhTPEOft4Hn93vZFVVLkSMfvTy2YU9e03v4; udb_other=%7B%22lt%22%3A%221661310383562%22%2C%22isRem%22%3A%221%22%7D; huya_ua=webh5&1.0.0&huya; isInLiveRoom=; Hm_lvt_51700b6c722f5bb4cf39906a596ea41f=1660878564,1660964362,1661045432,1661310642; PHPSESSID=qf1uveg55l852au48d61efa3k3; __yasmid=0.1988314466903378; __yaoldyyuid=1199614632617; _yasids=__rootsid%3DC9F368CA1B600001DF8B1EAC1515E570; undefined=undefined; h_unt=1661310977; udb_passdata=3; huya_web_rep_cnt=7"
+          },
+          "paramLib": {
+            "live_desc": "志在千里的直播间"
+          }
+        },
+        {
+          "requestName": "11",
+          "requestUrl": "",
+          "paramsUrl": "",
+          "headers": {},
+          "params": {},
+          "headerLib": {
+            "cookie": "__yamid_tt1=0.8666929490120576; __yamid_new=C9F2E19FAAA000011A7440B044B01708; udb_guiddata=13fe9ef265ab4cb0a58b5be2d6e205e3; udb_deviceid=w_614185557157842944; first_username_flag=hy_225424815_first_1; guid=0adb0baef67d03635e018af88bf8d3ca; game_did=rJ8TZ3xHEO5k81ahGzwcuNcnyE5qCCnlqze; udb_biztoken=AQA7jv_VD62X7yJLCNqDT_7vmjY-DB3OyKQUBRHV2y0EhxvZuAfStxxGchza0pno7uvFyYMJrMBAAMQ2KYkRGOFt1_1ZDhEqKdhDIdYT80rpzNZjXzmaTJXfzckh0oYPupQ9Mn_RRtt_B3UtKDTiqOhc8r6OgEPfMYaRkcnQzYswxwRqTR8fAPijYrd8qgHL9MqIfGMUw-hJig5ZTVwqgW96UIFfHf6N-OlWisRbiHs4YhkXw1QWNhDx6EVC7gR7fw1guNi8Zf8KT2_xL8TbKMPYPrtffPe1SYn5wugJ-J1FDa2xTAi04tUCfEnHELtBfjX4ODJrDJDcIMZAQ8QK7taP; udb_cred=ClCE05hKeQD0xIFy7puWB1QvkqNI3rS-7CNe40ApD81Qsww94s30n8eB36gb7ckARGxW1gp2KZDHuWbzXW1zkEDYB3c7pKAHoYpEzfdm67MhDhgiC3TQt_pAr-SJvGw7aMc; udb_origin=1; udb_other=%7B%22lt%22%3A%221661174473113%22%2C%22isRem%22%3A%221%22%7D; udb_passport=hy_225424815; udb_status=1; udb_uid=1199614868970; udb_version=1.0; username=hy_225424815; yyuid=1199614868970; udb_accdata=15971629396; PHPSESSID=7lsl357vd03elhthbnm4kfabb5; __yasmid=0.8666929490120576; __yaoldyyuid=1199614868970; _yasids=__rootsid%3DC9F3692D4EC000013E3A3A2C174F8770; undefined=undefined; h_unt=1661311383; udb_passdata=3; huya_ua=webh5&1.0.0&huya; huya_web_rep_cnt=13"
+          },
+          "paramLib": {
+            "live_desc": "孤蝶伏里的直播间"
+          }
+        }
+      ]
+    }
+  ]
+}
